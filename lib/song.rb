@@ -8,7 +8,7 @@ class Song
 
   def initialize(name)
     @name = name
-    @@all = []
+    @@all << self
   end
 
   # def name
@@ -20,7 +20,7 @@ class Song
   end
 
   def self.destroy_all
-     
+
   end
 
   def save
