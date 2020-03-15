@@ -13,6 +13,7 @@ class Song
 
   def self.all
     @@all
+    binding.pry
   end
 
   def self.destroy_all
