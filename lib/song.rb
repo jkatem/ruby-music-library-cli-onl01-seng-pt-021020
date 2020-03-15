@@ -11,10 +11,6 @@ class Song
     @@all = []
   end
 
-  # def name
-  #
-  # end
-
   def self.all
     @@all
   end
