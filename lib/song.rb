@@ -20,7 +20,7 @@ class Song
   end
 
   def self.destroy_all
-    @name.destroy 
+     
   end
 
   def save
