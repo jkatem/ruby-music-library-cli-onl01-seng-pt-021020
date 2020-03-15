@@ -2,6 +2,7 @@ require 'pry'
 
 class Song
 
+  attr_accessor :name
   @@all = []
 
   def initialize(name)
@@ -9,9 +10,9 @@ class Song
     @@all << self
   end
 
-  def name
-
-  end
+  # def name
+  #
+  # end
 
   def self.all
     @@all
